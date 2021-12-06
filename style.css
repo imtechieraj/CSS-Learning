@@ -1,0 +1,50 @@
+/* Element Selector */
+
+h1 {
+    color: red;
+}
+
+/* Class Selector */
+.heading1 {
+    color: rosybrown;
+}
+
+/* ID selector */
+#heading-id {
+    color: royalblue;
+}
+
+/* Pseudo selector */
+.pseudoSelector:hover {
+    color: seagreen;
+}
+
+/* Pseudo selector First and Last child*/
+
+li:first-child {
+    color: turquoise;
+}
+
+li:last-child {
+    color: red;
+}
+
+/* specific child number */
+li:nth-child(2) {
+    color: violet;
+}
+
+/* The :only-child CSS pseudo-class represents an 
+element without any siblings */
+
+.onlyChild :only-child {
+    color: yellow;
+}
+
+#google-link:link {
+    color:blue;
+}
+
+#google-link:visited {
+    color: black;
+}

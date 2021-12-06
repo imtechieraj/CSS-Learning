@@ -1,0 +1,28 @@
+Src : https://www.youtube.com/watch?v=1Rs2ND1ryYc
+1. Element Selector
+    Class
+        - we can style with specific element.
+        - we can use multiple times.
+    ID
+        - Id is more powerful than class. If we mention class
+        along with ID. CSS will apply ID on higher priority.
+         
+        - ID is supposed to use only one time.
+    
+    Inline 
+    
+        - It's much more powerful than class & ID. It's overwrite 
+          class and ID css. 
+
+    Pseudo Selectors :
+
+        - we can do animation and transition part
+        - Ex (
+                :hover,
+                :firstChild,
+                :lastChild,
+                :nth-child,
+                :onlychild- only-child CSS pseudo-class represents 
+                            an element without any siblings
+                :link
+                :visited )
