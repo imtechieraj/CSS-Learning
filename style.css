@@ -68,6 +68,55 @@ h1~button {
     color: brown;
 }
 
+/* Descendant Selector */
+
 /* .childSelector li {
     color: brown;
+} */
+
+/* CSS [attribute] selector */
+
+span[title]{
+    color:red
+}
+
+span[alt]{
+    color: royalblue;
+}
+
+a[target='_blank']{
+    color: salmon;
+}
+
+p[title~='Country']{
+    color:seagreen
+}
+
+/* values should be case sensitive */
+p[title~='India']{
+    color:blue
+}
+
+p[title~='sriLanga']{
+    color:red
+}
+
+/* Start with content as a word  */
+p[title|='content']{
+    color: springgreen;
+}
+/* any word */
+p[title^='anyword']{
+    color: aqua;
+}
+
+/* End with */
+p[title*='pakistan']{
+    color: green;
+}
+
+/* Global selector */
+
+/* p[title*='-']{
+    color: green;
 } */
