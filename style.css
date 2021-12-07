@@ -27,7 +27,7 @@ li:first-child {
 
 li:last-child {
     color: red;
-}
+} */
 
 /* specific child number */
 li:nth-child(2) {
@@ -42,9 +42,32 @@ element without any siblings */
 }
 
 #google-link:link {
-    color:blue;
+    color: blue;
 }
 
 #google-link:visited {
     color: black;
 }
+
+/* (+) This is take a next element for styling and 
+    It will work only in same level */
+
+h1+button {
+    color: blue;
+}
+
+/* (~) selector is take a next element for styling*/
+
+h1~button {
+    color: blue;
+}
+
+/* Child Selectors */
+
+.childSelector  > li {
+    color: brown;
+}
+
+/* .childSelector li {
+    color: brown;
+} */
